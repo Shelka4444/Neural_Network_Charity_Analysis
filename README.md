@@ -25,8 +25,18 @@ The target model performance did not reach the set evaluation level. This model 
   <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Original_Accuracy.png" alt="Original Accuracy" width=650>
 </p>
 
-- <strong> First Attempt </strong>
-                                                                                                                      
+<strong> First Attempt: </strong> 
+- In order to increase the models performance, I first tried to add a third hidden layer with a relu activation function which increased the number of parameters being evaluated, as seen below:                         
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_code.png" alt="First Attempt Code" width=750>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_summary_table.png" alt="First Attempt Parameters" width=750>
+</p>   
+
+The target model performance did not reach the set evaluation level. This model returned a value of approximately 72.5%. 
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_Accuracy.png" alt="First Attempt Accuracy" width=650>
+</p>
+
                                                                                                                       
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
