@@ -2,7 +2,7 @@
 
 # Overview of the analysis: 
 
-Using  machine learning and neural networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded by a corporate sponsor, Alphabet Soup. Analysing a CSV file containing more than 34,000 organizations, the dataset is preprocessed to extract and clean the columns with the most relevant data for the problem at hand. The data is then trained, compiled, and evaulated in a series of neural network models using Tensoflow's library of available classification functions.
+Using  machine learning and neural networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded by a corporate sponsor, Alphabet Soup. Analysing a CSV file containing more than 34,000 organizations, the dataset is preprocessed to extract and clean the columns with the most relevant data for the problem at hand. The data is then trained, compiled, and evaulated in a series of neural network models using Tensoflow's library of available classification functions. The target model performance is set at 75%.
 
 # Results: 
 
@@ -12,7 +12,22 @@ Using  machine learning and neural networks to create a binary classifier that i
 - The EIN and NAME columns were dropped from the dataframe because these identification columns do not carry information which will affect the analysis.  
 
 ## Compiling, Training, and Evaluating the Model
+- After the data preprocessing was complete, the dataframe was sorted into training and testing variables. The code for the original model is as follows:
 
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Original_Summary.png" alt="Original Code" width=750>
+</p>
+
+There are 86 neurons in the first hidden layer and 30 in the second layer. The activation functions for the hidden layers are relu which takes values from 0 to infinite. The output function is sigmoid which is bound between 0 and 1 which translates easily into a binary classifcation system. 
+
+The target model performance did not reach the set evaluation level. This model returned a value of approximately 72.5%. 
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Original_Accuracy.png" alt="Original Accuracy" width=650>
+</p>
+
+- <strong> First Attempt </strong>
+                                                                                                                      
+                                                                                                                      
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
