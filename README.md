@@ -2,7 +2,7 @@
 
 # Overview of the analysis: 
 
-Using  machine learning and neural networks to create a binary classifier that is capable of predicting whether applicants will be successful if funded by a corporate sponsor, Alphabet Soup. Analysing a CSV file containing more than 34,000 organizations, the dataset is preprocessed to extract and clean the columns with the most relevant data for the problem at hand. The data is then trained, compiled, and evaulated in a series of neural network models using Tensoflow's library of available classification functions. The target model performance is set at 75%.
+Machine learning and neural networks are used to build a binary classifier mdoel that is capable of predicting whether applicants will be successful if funded by the corporate sponsor, Alphabet Soup. Analysing a CSV file containing more than 34,000 organizations, the dataset is preprocessed to extract and clean the columns with the most relevant data for the problem at hand. The data is then trained, compiled, and evaulated in a series of neural network models using Tensoflow's library of available classification functions. The target model performance is set at 75%.
 
 # Results: 
 
@@ -18,7 +18,7 @@ Using  machine learning and neural networks to create a binary classifier that i
   <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Original_Summary.png" alt="Original Code" width=750>
 </p>
 
-There are 86 neurons in the first hidden layer and 30 in the second layer. The activation functions for the hidden layers are relu which takes values from 0 to infinite. The output function is sigmoid which is bound between 0 and 1 which translates easily into a binary classifcation system. 
+There are 86 neurons in the first hidden layer and 30 in the second layer. The activation function for the hidden layers is relu which takes values from 0 to infinite. The output function is sigmoid which is bound between 0 and 1 and as such, translates easily into a binary classifcation system. 
 
 The target model performance did not reach the set evaluation level. This model returned a value of approximately 72.5%. 
 <p align='center'>
