@@ -62,4 +62,5 @@ This third attempt also produced a modest result of 72.5% which did not reach th
 </p>
                                                                                                                       
 
-# Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+# Summary: 
+None of the deep learning models created were able to reach the set evaluation accuracy measure of 75%. There are a number of changes which can be implemented to build a stronger model, such as finessing the input data with better preprocessing techniques, adding more neurons to hidden layers, adding a new hidden layer, using different activation functions, and/or adjusting the number of epochs. A unique combination of these components could yield higher results which are necessary for building stronger business application models. Since this problem is a binary classification analysis, logistic regression, linear regression, and support vector machine algorithms may produce stronger results overall since these algorithms are already built to deal with two class systems.
