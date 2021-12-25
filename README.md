@@ -26,7 +26,7 @@ The target model performance did not reach the set evaluation level. This model 
 </p>
 
 <strong> First Attempt: </strong> 
-- In order to increase the models performance, I first tried to add a third hidden layer with a relu activation function which increased the number of parameters being evaluated, as seen below:                         
+- In order to increase the models performance, a third hidden layer with a relu activation function was added. This addition increased the number of parameters being evaluated, as seen below:                         
 <p align='center'>
   <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_code.png" alt="First Attempt Code" width=750>
   <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_summary_table.png" alt="First Attempt Parameters" width=750>
@@ -37,6 +37,17 @@ The target model performance did not reach the set evaluation level. This model 
   <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt1_Accuracy.png" alt="First Attempt Accuracy" width=650>
 </p>
 
+<strong> Second Attempt: </strong> 
+- In order to increase the models performance, the second layer of the original code was ammended to a tanh activation function, as seen below:                         
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt2_code.png" alt="Second Attempt Code" width=750>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt2_summary_table.png" alt="Second Attempt Parameters" width=750>
+</p>   
+
+The target model performance did not reach the set evaluation level. This model returned a value of approximately 72.6%. 
+<p align='center'>
+  <img src="https://github.com/Shelka4444/Neural_Network_Charity_Analysis/blob/main/Images/Attempt2_Accuracy.png" alt="Second Attempt Accuracy" width=650>
+</p>
                                                                                                                       
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
